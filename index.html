@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name ="viewport" content ="width=device-width, intial-scale=1.0">
+    <title>Jack Conrad Portfolio</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <style>
+        .container {
+            max-width: 960px;
+            margin 0 auto;
+            padding:40px;
+        }
+        .project{
+            margin-bottom: 20px;
+            border: 1px solid #C62828;
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="about">
+        <div class = "container">
+            <img src="./images/profile.jpg" alt="Profile Photo" width="299px" height="485px">
+            <h1>Jack Conrad</h1>
+            <p style="font-family: 'Courier New', Courier, monospace; color: brown">Hello!</p>
+            <p>My name is Jack Conrad, and I am a undergradute student at Iowa State University studing computer engineering.
+                I enjoy developing software solutions for problems, which is what has led me to study computer engineering and
+                why I have enjoyed the projects I have been a part of so far. Working in a team always comes with its challenges,
+                but is one of my favorite parts of my undergradute studies because it helps me to learn and create things that are better
+                than what I could create on my own. 
+            </p>
+        </div>
+    </section>
+    <section id="projects">
+        <div class="contianer">
+            <h2>Projects</h2>
+            <div class="project">
+                <img src="./images/project.jpg" alt="Scoundrel card game app" width="1000px" height="500px">
+                <h3>Scoundrel App</h3>
+                <p>In the software development class COMS 3090 at Iowa State, my group created an app for a card game named Scoundrel. I was on the backend portion for this project,
+                    and was in charge of all of the game logic and data as well as the notifications for the app. Our game took a slighly different take on
+                    the base game of scoundrel because we needed it to be 4 players, so we developed a 4 player version, with 2 teams of two, each trying
+                    to get out of the dungeon. Our app had many features, such as the base game, a singleplayer mode, leaderboard, friends list and chat, and
+                    basic settings. The entire app was written using Java, and the backend was specifically written using Springboot to interface with a 
+                    MariaDB database. 
+                </p>
+            </div>
+        </div>
+    </section>
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <p>
+            You can contact me at jackconr@iastate.edu
+        </p>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 Jack Conrad</p>
+    </footer>
+
+</body>
+
+</html>
